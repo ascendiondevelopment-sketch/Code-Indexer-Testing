@@ -26,7 +26,7 @@ In the Copilot app session for `space-quiz`, send this prompt:
 Enable GitHub Pages for this repository. Create a GitHub Actions workflow that builds the website if needed and deploys it to GitHub Pages. Add a README describing the app and how to run it locally if one does not already exist. Create a pull request with these changes and merge it after required checks pass. Monitor the deployment until it succeeds, then report the final URL of the live website. If you lack permission to enable Pages or merge, tell me exactly what I need to approve or do; do not report success until the site is live.
 ```
 
-![Diagram of a space-quiz pull request triggering a GitHub Actions deployment that publishes the Space Quiz to a live GitHub Pages URL.](../../_images/first-steps-app-pages-deploy.svg)
+![A space-quiz pull request triggers a GitHub Actions deployment that publishes the Space Quiz to a live GitHub Pages URL.](../../_images/first-steps-app-pages-deploy.svg)
 
 > [!WARNING]
 > This prompt asks the agent to create and merge a pull request and change repository Pages settings. Review the diff, deployment permissions, and any GitHub approval prompts before proceeding.
