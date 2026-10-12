@@ -4,10 +4,10 @@ description: "Space Quiz를 만들고 출시하면서 GitHub Copilot app을 단�
 slug: ko-kr/first-steps/copilot-app
 authors:
   - jamesmontemagno
-lastUpdated: 2026-10-08
+lastUpdated: 2026-10-12
 ---
 
-초보자도 쉽게 따라 할 수 있는 실습으로 GitHub Copilot app을 살펴봅니다. 빈 폴더에서 다채로운 Space Quiz를 만들고, 첫 프롬프트부터 검토를 마친 풀 리퀘스트(Pull request)까지 전체 개발 사이클을 진행합니다.
+초보자도 쉽게 따라 할 수 있는 실습으로 GitHub Copilot app을 살펴봅니다. 빈 폴더에서 다채로운 Space Quiz를 만들고, 첫 프롬프트부터 검토를 마친 풀 리퀘스트(Pull request)와 GitHub Pages에 게시된 사이트까지 전체 개발 사이클을 진행합니다.
 
 워크숍에는 약 60~90분이 걸립니다. 프로젝트는 런타임 의존성이 없는 단일 HTML 파일을 사용하므로 앱과 에이전트 기반 워크플로를 익히는 데 집중할 수 있습니다.
 
@@ -30,7 +30,8 @@ lastUpdated: 2026-10-08
 | [9. 이슈 분류 자동화][lesson-9] | 자동화 | 주간 이슈 분류 자동화를 예약하고 실행합니다 |
 | [10. 원격으로 세션 이어가기][lesson-10] | 원격(선택 사항) | `/remote`로 진행 중인 로컬 세션을 웹이나 모바일에서 확인합니다 |
 | [11. Canvas 살펴보기][lesson-11] | Canvas | Repository Issues Kanban Canvas에서 작업을 시작합니다 |
-| [12. 복습 및 다음 단계][lesson-12] | 복습 | 워크플로를 돌아보고 학습을 이어갑니다 |
+| [12. GitHub Pages로 사이트 배포하기][lesson-12] | 배포 | Pages 워크플로를 검토하고 병합한 다음 게시된 사이트를 확인합니다 |
+| [13. 복습 및 다음 단계][lesson-13] | 복습 | 워크플로를 돌아보고 학습을 이어갑니다 |
 
 ## 시작하기
 
@@ -51,4 +52,5 @@ lastUpdated: 2026-10-08
 [lesson-9]: 9-automations/
 [lesson-10]: 10-remote/
 [lesson-11]: 11-canvas/
-[lesson-12]: 12-review/
+[lesson-12]: 12-deploy-pages/
+[lesson-13]: 13-review/

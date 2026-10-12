@@ -4,10 +4,10 @@ description: "Faça um tour guiado pelo aplicativo GitHub Copilot criando e entr
 slug: pt-br/first-steps/copilot-app
 authors:
   - jamesmontemagno
-lastUpdated: 2026-10-08
+lastUpdated: 2026-10-12
 ---
 
-Faça um tour prático pelo aplicativo GitHub Copilot, pensado para quem está começando. Você criará um Space Quiz colorido a partir de uma pasta vazia e percorrerá todo o ciclo de desenvolvimento, do primeiro prompt a um pull request revisado.
+Faça um tour prático pelo aplicativo GitHub Copilot, pensado para quem está começando. Você criará um Space Quiz colorido a partir de uma pasta vazia e percorrerá todo o ciclo de desenvolvimento, do primeiro prompt a um pull request revisado e a um site publicado no GitHub Pages.
 
 O workshop leva aproximadamente de 60 a 90 minutos. O projeto usa um único arquivo HTML, sem dependências de tempo de execução, para que você possa se concentrar em conhecer o aplicativo e seus fluxos de trabalho com agentes.
 
@@ -30,7 +30,8 @@ O workshop leva aproximadamente de 60 a 90 minutos. O projeto usa um único arqu
 | [9. Automatizar a triagem de issues][lesson-9] | Automação | Agendar e executar uma automação semanal de triagem de issues |
 | [10. Continuar uma sessão remotamente][lesson-10] | Acesso remoto (opcional) | Acompanhar uma sessão local em andamento pela web ou pelo celular com `/remote` |
 | [11. Explorar um Canvas][lesson-11] | Canvas | Iniciar o trabalho a partir de um Canvas Repository Issues Kanban |
-| [12. Revisão e próximos passos][lesson-12] | Revisão | Recapitular o fluxo de trabalho e continuar aprendendo |
+| [12. Publicar o site com GitHub Pages][lesson-12] | Publicação | Revisar e mesclar um workflow de Pages e verificar o site publicado |
+| [13. Revisão e próximos passos][lesson-13] | Revisão | Recapitular o fluxo de trabalho e continuar aprendendo |
 
 ## Começar
 
@@ -51,4 +52,5 @@ O workshop leva aproximadamente de 60 a 90 minutos. O projeto usa um único arqu
 [lesson-9]: 9-automations/
 [lesson-10]: 10-remote/
 [lesson-11]: 11-canvas/
-[lesson-12]: 12-review/
+[lesson-12]: 12-deploy-pages/
+[lesson-13]: 13-review/

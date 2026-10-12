@@ -3,7 +3,7 @@ title: "Lección 3 - Inspeccionar la sesión y probar el cuestionario"
 description: "Revisa los detalles del proyecto y del uso de la sesión y, después, ejecuta una prueba de humo en el explorador antes de que Git escriba nada."
 authors:
   - jamesmontemagno
-lastUpdated: 2026-10-08
+lastUpdated: 2026-10-12
 ---
 
 Ahora que la sesión ha realizado trabajo real, ya hay algo que inspeccionar. Confirma sobre qué está trabajando el agente y, después, deja que maneje el cuestionario en el explorador integrado e informe de lo que ha ocurrido realmente, no de lo que pretendía hacer.

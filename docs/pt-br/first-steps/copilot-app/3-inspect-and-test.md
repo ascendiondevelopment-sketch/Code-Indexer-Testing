@@ -3,7 +3,7 @@ title: "Lição 3 - Inspecionar a sessão e testar o quiz"
 description: "Revise os detalhes do projeto e do uso da sessão e execute um teste básico de funcionamento no navegador antes de qualquer gravação no Git."
 authors:
   - jamesmontemagno
-lastUpdated: 2026-10-08
+lastUpdated: 2026-10-12
 ---
 
 Agora que a sessão realizou trabalho de verdade, há algo para inspecionar. Confirme qual é o alvo do trabalho do agente e, depois, deixe que ele opere o quiz no navegador integrado e relate o que realmente aconteceu, em vez do que pretendia fazer.
