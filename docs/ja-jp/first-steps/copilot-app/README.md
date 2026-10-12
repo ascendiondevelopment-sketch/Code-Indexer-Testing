@@ -4,10 +4,10 @@ description: "Space Quiz を構築して公開しながら、GitHub Copilot app 
 slug: ja-jp/first-steps/copilot-app
 authors:
   - jamesmontemagno
-lastUpdated: 2026-10-08
+lastUpdated: 2026-10-12
 ---
 
-初心者向けのハンズオンで GitHub Copilot app を体験します。空のフォルダーからカラフルな Space Quiz を構築し、最初のプロンプトからレビュー済みのプルリクエストまで、開発の流れをひととおり体験します。
+初心者向けのハンズオンで GitHub Copilot app を体験します。空のフォルダーからカラフルな Space Quiz を構築し、最初のプロンプトからレビュー済みのプルリクエスト、GitHub Pages で公開するサイトまで、開発の流れをひととおり体験します。
 
 ワークショップの所要時間は約 60～90 分です。プロジェクトは実行時の依存関係を持たない単一の HTML ファイルで構成されるため、アプリとそのエージェント型ワークフローの学習に集中できます。
 
@@ -30,7 +30,8 @@ lastUpdated: 2026-10-08
 | [9. Issue のトリアージの自動化][lesson-9] | 自動化 | 毎週の Issue のトリアージを自動化するスケジュールを設定して実行する |
 | [10. リモートからセッションを続ける][lesson-10] | リモート (オプション) | `/remote` を使い、進行中のローカルセッションを Web またはモバイルから確認する |
 | [11. Canvas を試す][lesson-11] | Canvas | Repository Issues Kanban Canvas から作業を開始する |
-| [12. 振り返りと次のステップ][lesson-12] | 振り返り | ワークフローを振り返り、学習を続ける |
+| [12. GitHub Pages でサイトを公開する][lesson-12] | デプロイ | Pages ワークフローを確認してマージし、公開されたサイトを確認する |
+| [13. 振り返りと次のステップ][lesson-13] | 振り返り | ワークフローを振り返り、学習を続ける |
 
 ## はじめる
 
@@ -51,4 +52,5 @@ lastUpdated: 2026-10-08
 [lesson-9]: 9-automations/
 [lesson-10]: 10-remote/
 [lesson-11]: 11-canvas/
-[lesson-12]: 12-review/
+[lesson-12]: 12-deploy-pages/
+[lesson-13]: 13-review/

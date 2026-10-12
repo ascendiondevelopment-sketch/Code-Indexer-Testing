@@ -45,9 +45,9 @@
   <text class="detail" x="494" y="297" text-anchor="end">400K</text>
   <path class="rule" d="M84 318h432"/>
   <text class="link" x="88" y="351">View usage and plan...</text>
-  <text class="annotation" x="552" y="114">Plan and</text>
-  <text class="annotation" x="552" y="131">credits</text>
-  <path class="leader" d="M540 125h-18l-18-12"/>
+  <text class="annotation" x="552" y="54">Plan and</text>
+  <text class="annotation" x="552" y="71">credits</text>
+  <path class="leader" d="M540 63h-18l-18 4"/>
   <text class="annotation" x="552" y="237">Tokens and</text>
   <text class="annotation" x="552" y="254">context</text>
   <path class="leader" d="M540 248h-18l-18 12"/>

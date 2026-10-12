@@ -4,10 +4,10 @@ description: "通过构建并交付 Space Quiz，在引导下探索 GitHub Copil
 slug: zh-cn/first-steps/copilot-app
 authors:
   - jamesmontemagno
-lastUpdated: 2026-10-08
+lastUpdated: 2026-10-12
 ---
 
-通过适合初学者的动手实践探索 GitHub Copilot app。从空文件夹构建色彩丰富的 Space Quiz，完成整个开发流程，从第一个提示词一直到经过审查的拉取请求。
+通过适合初学者的动手实践探索 GitHub Copilot app。从空文件夹构建色彩丰富的 Space Quiz，完成整个开发流程，从第一个提示词一直到经过审查的拉取请求和发布到 GitHub Pages 的网站。
 
 本研讨会约需 60 到 90 分钟。项目只有一个 HTML 文件，没有运行时依赖项，因此可以专注于学习应用及其智能体工作流。
 
@@ -30,7 +30,8 @@ lastUpdated: 2026-10-08
 | [9. 自动化议题分类][lesson-9] | 自动化 | 安排并运行每周议题分类自动化任务 |
 | [10. 远程继续会话][lesson-10] | 远程（可选） | 使用 `/remote` 从网页或移动端查看正在进行的本地会话 |
 | [11. 探索 Canvas][lesson-11] | Canvas | 从 Repository Issues Kanban Canvas 开始工作 |
-| [12. 回顾与后续步骤][lesson-12] | 回顾 | 回顾工作流并继续学习 |
+| [12. 使用 GitHub Pages 部署网站][lesson-12] | 部署 | 审查并合并 Pages 工作流，然后确认网站已发布 |
+| [13. 回顾与后续步骤][lesson-13] | 回顾 | 回顾工作流并继续学习 |
 
 ## 开始学习
 
@@ -51,4 +52,5 @@ lastUpdated: 2026-10-08
 [lesson-9]: 9-automations/
 [lesson-10]: 10-remote/
 [lesson-11]: 11-canvas/
-[lesson-12]: 12-review/
+[lesson-12]: 12-deploy-pages/
+[lesson-13]: 13-review/

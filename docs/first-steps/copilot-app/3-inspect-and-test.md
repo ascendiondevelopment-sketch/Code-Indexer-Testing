@@ -3,7 +3,7 @@ title: "Lesson 3 - Inspect the session and test the quiz"
 description: "Review the project and usage details for the session, then run a browser-level smoke test before Git writes anything."
 authors:
   - jamesmontemagno
-lastUpdated: 2026-10-08
+lastUpdated: 2026-10-12
 ---
 
 Now that your session has done real work, there is something to inspect. Confirm what the agent is pointed at, then let it drive the quiz in the integrated browser and report what actually happened rather than what it intended.

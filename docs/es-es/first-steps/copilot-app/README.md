@@ -4,10 +4,10 @@ description: "Realiza un recorrido guiado por la aplicación GitHub Copilot crea
 slug: es-es/first-steps/copilot-app
 authors:
   - jamesmontemagno
-lastUpdated: 2026-10-08
+lastUpdated: 2026-10-12
 ---
 
-Realiza un recorrido práctico por la aplicación GitHub Copilot, pensado para principiantes. Crearás un Space Quiz lleno de color desde una carpeta vacía y recorrerás todo el ciclo de desarrollo, desde el primer prompt hasta una solicitud de incorporación de cambios revisada.
+Realiza un recorrido práctico por la aplicación GitHub Copilot, pensado para principiantes. Crearás un Space Quiz lleno de color desde una carpeta vacía y recorrerás todo el ciclo de desarrollo, desde el primer prompt hasta una solicitud de incorporación de cambios revisada y un sitio publicado en GitHub Pages.
 
 El taller dura aproximadamente entre 60 y 90 minutos. El proyecto utiliza un único archivo HTML sin dependencias de ejecución, así que puedes centrarte en aprender a usar la aplicación y sus flujos de trabajo con agentes.
 
@@ -30,7 +30,8 @@ El taller dura aproximadamente entre 60 y 90 minutos. El proyecto utiliza un ún
 | [9. Automatizar la clasificación de incidencias][lesson-9] | Automatización | Programa y ejecuta una automatización semanal de clasificación de incidencias |
 | [10. Continuar una sesión de forma remota][lesson-10] | Acceso remoto (opcional) | Sigue una sesión local en curso desde la web o el móvil con `/remote` |
 | [11. Explorar un Canvas][lesson-11] | Canvas | Empieza a trabajar desde un Canvas de Repository Issues Kanban |
-| [12. Repaso y pasos siguientes][lesson-12] | Repaso | Repasa el flujo de trabajo y sigue aprendiendo |
+| [12. Publicar el sitio con GitHub Pages][lesson-12] | Publicación | Revisa y combina un flujo de trabajo de Pages y comprueba el sitio publicado |
+| [13. Repaso y pasos siguientes][lesson-13] | Repaso | Repasa el flujo de trabajo y sigue aprendiendo |
 
 ## Primeros pasos
 
@@ -51,4 +52,5 @@ El taller dura aproximadamente entre 60 y 90 minutos. El proyecto utiliza un ún
 [lesson-9]: 9-automations/
 [lesson-10]: 10-remote/
 [lesson-11]: 11-canvas/
-[lesson-12]: 12-review/
+[lesson-12]: 12-deploy-pages/
+[lesson-13]: 13-review/

@@ -55,7 +55,7 @@
   <text class="annotation" x="532" y="128">Project</text>
   <text class="annotation" x="532" y="145">details</text>
   <path class="leader" d="M514 142h-24l-20 15"/>
-  <text class="annotation" x="532" y="300">Session</text>
-  <text class="annotation" x="532" y="317">controls</text>
-  <path class="leader" d="M514 312h-24l-20 10"/>
+  <text class="annotation" x="532" y="228">Session</text>
+  <text class="annotation" x="532" y="245">controls</text>
+  <path class="leader" d="M514 239h-24l-20 1"/>
 </svg>
