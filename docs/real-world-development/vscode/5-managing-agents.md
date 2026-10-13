@@ -42,7 +42,7 @@ Now that high-contrast mode is in place, you'll extend the same conversation to 
 
 1. In the Copilot Chat input, send the following follow-up prompt:
 
-    ```
+    ```plaintext
     Nice work! Now add a light-mode toggle alongside the high-contrast toggle. Light mode should follow the same pattern — persist via local storage and be accessible from the same area of the UI. The user should be able to enable high-contrast and light mode independently.
     ```
 

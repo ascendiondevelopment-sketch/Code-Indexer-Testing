@@ -35,7 +35,7 @@ Copilot 에이전트 모드는 IDE에서 더 자율적으로 작업하도록 설
 `npm run dev` 명령으로 단일 Astro 개발 서버를 시작할 수 있습니다. 다음 단계를 따라 GitHub Codespace에서 실행합니다.
 
 1. Codespace로 돌아갑니다. 이전 연습에서 `main`으로 돌아왔어야 합니다.
-2. <kbd>Ctrl</kbd>+<kbd>\`</kbd>를 선택해 Codespace에서 새 터미널을 엽니다.
+2. Mac에서는 <kbd>Control</kbd>+<kbd>\`</kbd>를, Windows/Linux에서는 <kbd>Ctrl</kbd>+<kbd>\`</kbd>를 눌러 Codespace에서 새 터미널을 엽니다.
 3. 필터링 작업을 위한 새 브랜치를 만들고 전환합니다.
 
    ```bash

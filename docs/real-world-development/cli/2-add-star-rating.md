@@ -31,15 +31,15 @@ Inside a conversation you'll see three things: your prompts and the agent's resp
 Let's start a new conversation to begin implementing our feature.
 
 1. Return to your Codespace.
-2. If the terminal isn't open from before, select <kbd>Ctl</kbd>+<kbd>\`</kbd>.
+2. If the terminal isn't open from before, press <kbd>Control</kbd>+<kbd>\`</kbd> (Mac) or <kbd>Ctrl</kbd>+<kbd>\`</kbd> (Windows/Linux).
 3. If not already open, start Copilot by using the following command:
 
    ```bash
    copilot --yolo
    ```
 
-4. Ensure a new session is started by using the slash command `/new` and selecting <kbd>Enter</kbd>.
-4. Use the following prompt to request the change:
+4. Ensure a new session is started by using the slash command `/new` and pressing <kbd>Enter</kbd>.
+5. Use the following prompt to request the change:
 
    ```plaintext
    Show each game's starRating out of 5 in the game cards on the list page. If the rating is null, show "No rating yet". Keep the card layout as it is, add tests, and run the relevant checks.
@@ -55,7 +55,7 @@ All AI-generated changes deserve a review before they're merged, even small ones
 2. Confirm the game card displays the numeric rating when it is present and `No rating yet` when `starRating` is `null`.
 3. Confirm the tests cover both states.
 4. Review the results of the checks Copilot ran and ask it to fix any failures.
-5. Once your review is complete, select <kbd>Esc</kbd> to exit the diff screen.
+5. Once your review is complete, press <kbd>Esc</kbd> to exit the diff screen.
 
 > [!NOTE]
 > Because Copilot, like all generative AI tools, is probabilistic rather than deterministic, your exact code may vary. Review the behavior rather than expecting one exact implementation.

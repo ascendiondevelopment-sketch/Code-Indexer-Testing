@@ -35,7 +35,7 @@ The website is a crowdfunding platform for board games with a developer theme. I
 To make running the website easier, an `npm run dev` task has been provided that starts the single Astro dev server. You can run it in your GitHub Codespace with the following steps:
 
 1. Return to your codespace. You should be back on `main` after the previous exercise.
-2. Open a new terminal window inside your codespace by selecting <kbd>Ctrl</kbd> + <kbd>\`</kbd>.
+2. Open a new terminal window inside your Codespace by pressing <kbd>Control</kbd>+<kbd>\`</kbd> (Mac) or <kbd>Ctrl</kbd>+<kbd>\`</kbd> (Windows/Linux).
 3. Create and switch to a new branch for this filtering work:
 
    ```bash

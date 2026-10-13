@@ -90,7 +90,7 @@ Tailspin Toys에는 개발 관행에 관한 표준과 요구 사항이 있습니
 변경 사항을 별도 브랜치에서 관리합니다.
 
 1. 이전 연습에서 사용한 Codespace로 돌아갑니다.
-2. <kbd>Ctrl</kbd>+<kbd>\`</kbd>를 눌러 새 터미널을 엽니다.
+2. Mac에서는 <kbd>Control</kbd>+<kbd>\`</kbd>를, Windows/Linux에서는 <kbd>Ctrl</kbd>+<kbd>\`</kbd>를 눌러 새 터미널을 엽니다.
 3. 새 브랜치를 만들고 전환합니다.
 
    ```bash
@@ -179,7 +179,7 @@ Tailspin Toys에는 개발 관행에 관한 표준과 요구 사항이 있습니
 
 지침 파일도 다른 리포지토리 자산과 마찬가지로 버전 관리합니다. 변경 사항을 커밋하고 브랜치를 푸시합니다.
 
-1. Codespace에서 <kbd>Ctrl</kbd>+<kbd>\`</kbd>를 눌러 새 터미널 창을 엽니다.
+1. Mac에서는 <kbd>Control</kbd>+<kbd>\`</kbd>를, Windows/Linux에서는 <kbd>Ctrl</kbd>+<kbd>\`</kbd>를 눌러 Codespace에서 새 터미널 창을 엽니다.
 2. 다음 명령을 실행해 지침 변경과 도우미 파일이 있는지 확인합니다.
 
    ```bash

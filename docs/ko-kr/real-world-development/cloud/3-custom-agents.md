@@ -74,7 +74,7 @@ Codespace로 돌아가 접근성 사용자 지정 에이전트 파일을 검토�
 
     ![고대비 모드 이슈에 접근성 에이전트를 할당하는 화면](../../../_images/ex5-select-custom-agent.png)
 
-10. **Assign**를 선택합니다.
+10. **Assign**을 선택합니다.
 11. Copilot이 백그라운드에서 작업을 시작합니다.
 
 ## 요약 및 다음 단계
@@ -96,7 +96,7 @@ Copilot이 고대비 모드를 구현하는 동안 다음으로 [에이전트 �
 
 ---
 
-| [← 이전 레슨: Playwright MCP 서버로 기능 테스트][previous-lesson] | [다음 레슨: 에이전트 모니터링 및 관리 →][next-lesson] |
+| [← 이전 레슨: GitHub Copilot cloud agent][previous-lesson] | [다음 레슨: 에이전트 모니터링 및 관리 →][next-lesson] |
 |:--|--:|
 
 [previous-lesson]: ../2-cloud-agent/

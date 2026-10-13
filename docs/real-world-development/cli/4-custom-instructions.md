@@ -63,15 +63,23 @@ The file will be automatically saved!
 
 ## Use the updated guidance
 
-Copilot CLI loads repository instructions when a conversation starts. Resume the filtering conversation after the edit so the new guidance is available without losing the feature context.
+Copilot CLI loads repository instructions when a conversation starts. After saving the updated instructions, exit and resume the filtering conversation so Copilot starts with the new guidance without losing the feature context.
 
-1. . Ask Copilot to apply the updated guidance:
+1. If the filtering conversation is still open, enter `/exit` to close it. Copilot CLI saves conversations automatically.
+2. From the repository root on the `game-filters-cli` branch, resume the saved conversation:
+
+   ```bash
+   copilot --resume
+   ```
+
+   If prompted, select the filtering conversation and confirm the `game-filters-cli` branch is checked out.
+3. Ask Copilot to apply the updated guidance:
 
    ```plaintext
    We just updated our instructions and code guidance. Can you please update the code you generated to match that guidance?
    ```
 
-2. Enter `/diff` and read through the changed TypeScript files. Note the newly generated TSDoc comments and confirm they explain the code accurately.
+4. Enter `/diff` and read through the changed TypeScript files. Note the newly generated TSDoc comments and confirm they explain the code accurately.
 
 ## Summary and next steps
 

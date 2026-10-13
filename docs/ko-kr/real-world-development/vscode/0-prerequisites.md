@@ -11,7 +11,7 @@ VS Code 연습을 시작하기 전에 필요한 사항을 준비합니다. Tails
 
 코드를 작성할 리포지토리 복사본을 만들기 위해 [템플릿][template-repository]을 사용합니다. 새 리포지토리에는 실습에 필요한 모든 파일이 포함됩니다.
 
-1. 새 브라우저 창에서 이 실습의 GitHub 리포지토리인 `https://github.com/github-samples/tailspin-toys`로 이동합니다.
+1. 새 브라우저 창에서 [Tailspin Toys 템플릿][tailspin-template]으로 이동합니다.
 2. 실습 리포지토리 페이지에서 **Use this template**을 선택한 다음 **Create a new repository**를 선택하여 리포지토리 복사본을 만듭니다.
 
     ![Use this template 버튼](../../../_images/ex0-use-template.png)
@@ -85,6 +85,7 @@ Copilot을 사용해 프로젝트의 규칙을 알려 주는 [연습 1 - 사용�
 - [템플릿에서 리포지토리 만들기][template-repository]
 - [Codespaces 시작하기][codespaces-quickstart]
 
+[tailspin-template]: https://github.com/github-samples/tailspin-toys
 [template-repository]: https://docs.github.com/repositories/creating-and-managing-repositories/creating-a-template-repository
 [codespaces-quickstart]: https://docs.github.com/codespaces/getting-started/quickstart
 [copilot-chat-extension]: https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat

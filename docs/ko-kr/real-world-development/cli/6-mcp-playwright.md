@@ -36,7 +36,10 @@ lastUpdated: 2026-09-18
 
 ## Playwright MCP 서버 추가하기
 
-Copilot이 사용자처럼 사이트와 상호 작용할 수 있도록 Playwright MCP 서버를 추가합니다.
+Playwright MCP 서버를 아직 사용할 수 없다면 추가하여 Copilot이 사용자처럼 사이트와 상호 작용하도록 합니다.
+
+> [!NOTE]
+> Copilot CLI에서 Playwright MCP를 이미 사용할 수 있다면 아래 설정 단계는 건너뛰고 다음 섹션으로 진행합니다.
 
 1. Codespace로 돌아갑니다.
 2. Copilot CLI에서 다음 명령을 입력해 MCP 서버 추가 대화 상자를 엽니다.
@@ -58,7 +61,7 @@ Copilot이 사용자처럼 사이트와 상호 작용할 수 있도록 Playwrigh
 
 ## Playwright를 사용해 Copilot이 기능을 살펴보도록 요청하기
 
-앞서 기능이 제대로 작동하는지 직접 확인했습니다. 이제 Playwright 서버를 Copilot에 추가하여 같은 작업을 수행하도록 합니다.
+앞서 기능이 제대로 작동하는지 직접 확인했습니다. 이제 Copilot이 사용할 수 있는 Playwright MCP 서버로 같은 검증을 수행합니다.
 
 1. 다음 프롬프트로 Copilot에 Playwright MCP 서버를 사용해 기능을 검증하도록 요청합니다.
 
@@ -79,10 +82,10 @@ Copilot은 서버를 시작하고 Playwright로 사이트를 조작한 다음 �
 이 레슨에서는 다음을 수행했습니다.
 
 - Model Context Protocol(MCP)이 무엇이며 MCP 서버가 Copilot에 도구를 추가하는 방식을 알아봤습니다.
-- Playwright MCP 서버를 작업 공간에 추가했습니다.
+- Playwright MCP 서버를 사용할 수 있는지 확인하고, 필요한 경우 추가했습니다.
 - 에이전트가 브라우저를 조작해 필터링 기능을 살펴보도록 요청했습니다.
 
-MCP 서버를 사용해 기능을 *테스트*했습니다. 하지만 MCP는 Copilot을 확장하는 여러 방법 중 하나입니다. 다음으로 [사용자 지정 에이전트][next-lesson]를 만들어 접근성 검토와 같은 작업을 간소화합니다.
+사용 가능한 Playwright MCP 서버로 기능을 *테스트*했습니다. 하지만 MCP는 Copilot을 확장하는 여러 방법 중 하나입니다. 다음으로 [사용자 지정 에이전트][next-lesson]를 만들어 접근성 검토와 같은 작업을 간소화합니다.
 
 ## 리소스
 
