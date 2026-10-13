@@ -53,53 +53,46 @@ Codespace로 돌아가 접근성 사용자 지정 에이전트 파일을 검토�
    - HTML, CSS, JavaScript 코드 예제
    - 흔히 발생하는 문제와 실수
 
-## Copilot Chat에서 사용자 지정 에이전트 사용하기
+## 이슈 만들고 Copilot에 할당하기
 
-VS Code의 Copilot Chat 보기 하단에 있는 에이전트 드롭다운에는 `.github/agents`에 정의된 사용자 지정 에이전트가 표시됩니다. 사용자 지정 에이전트를 선택하면 해당 에이전트의 지침과 도구를 사용하는 채팅 세션이 시작됩니다.
+제어 센터(Mission control)는 환경의 모든 에이전트와 작업하는 중심 공간입니다. Copilot cloud agent에 작업을 할당하고 작업을 모니터링하며 추가 지침을 보낼 수 있습니다. 먼저 접근성 에이전트에 고대비 모드 구현 작업을 할당합니다.
 
-> [!TIP]
-> **Copilot Chat 열기**
->
-> 아래 연습을 시작하기 전에 Codespace로 돌아가 Copilot Chat 패널을 열고 **New Chat**을 선택하여 새 대화를 시작합니다. 모드와 모델 선택은 연습마다 다를 수 있습니다. 필요한 단계에서 안내합니다.
-
-1. Chat 보기의 에이전트 드롭다운에서 **Agent**를 선택합니다. 이미 선택되어 있다면 그대로 둡니다.
-
-   ![Chat 보기에서 에이전트 선택기를 보여 주는 스크린샷](../../../_images/shared-chat-mode-selector.png)
-
-2. Chat 보기 아래의 에이전트 드롭다운을 선택합니다. 기본적으로 활성 에이전트인 **default**가 표시됩니다.
-3. 사용 가능한 에이전트 목록에서 **Accessibility agent**를 선택합니다.
-4. 접근성 에이전트에 다음 프롬프트를 보냅니다.
+1. 리포지토리로 이동합니다.
+2. **Issues** 탭을 선택합니다.
+3. **New issue**를 선택하여 새 이슈 대화 상자를 엽니다.
+4. **Blank issue**를 선택합니다.
+5. **Title**에 `웹사이트에 고대비 모드 추가`를 입력합니다.
+6. **Description**에 다음을 입력합니다.
 
     ```plaintext
-    사이트에 고대비 모드를 추가해 주세요. 사용자가 켜고 끌 수 있는 고대비 토글이 있어야 하며, 브라우저의 로컬 스토리지(local storage)를 사용해 페이지를 다시 로드한 뒤에도 설정이 유지되어야 합니다.
+    사이트에 고대비 모드를 추가해야 합니다. 사용자가 설정할 수 있는 고대비 토글이 있어야 하며, 브라우저의 로컬 스토리지에 설정을 저장해야 합니다.
     ```
 
-5. Copilot Chat이 코드베이스를 살펴보고 변경 사항을 제안한 뒤 프로젝트 파일에 적용합니다. 각 편집 내용은 파일 경로 및 검토할 수 있는 diff와 함께 채팅에 표시됩니다.
-6. 편집이 적용되면 **Files changed** 표시에서 에이전트가 수정한 파일 목록이 갱신됩니다.
+7. **Create**를 선택하여 이슈를 만듭니다.
+8. 오른쪽에서 **Assign to Copilot**을 선택하여 할당 대화 상자를 엽니다.
+9. 목록에서 **Accessibility agent**를 선택합니다.
 
-> [!NOTE]
-> 이 과정은 몇 분 정도 걸릴 수 있습니다. Copilot이 실제로 리포지토리를 수정하며, 작업 중 Astro 컴포넌트, CSS, 관련 테스트 등을 편집합니다.
+    ![고대비 모드 이슈에 접근성 에이전트를 할당하는 화면](../../../_images/ex5-select-custom-agent.png)
 
-다음 연습에서는 진행 중인 작업을 검토하고 방향을 조정합니다.
+10. **Assign**를 선택합니다.
+11. Copilot이 백그라운드에서 작업을 시작합니다.
 
 ## 요약 및 다음 단계
 
-GitHub Copilot의 [사용자 지정 에이전트][custom-agents]는 특정 작업과 영역을 위한 전문 AI 도우미입니다. 사용자 지정 에이전트를 사용하면 팀의 전문 지식과 표준을 재사용 가능한 에이전트로 정리하여 Copilot이 더 효과적으로 작업하도록 안내할 수 있습니다.
+GitHub Copilot의 [사용자 지정 에이전트][custom-agents]는 특정 작업과 영역을 위한 전문 AI 도우미입니다. 사용자 지정 에이전트로 팀의 전문 지식과 표준을 재사용 가능한 형태로 정의해 Copilot이 특정 유형의 작업을 더 효과적으로 수행하도록 안내할 수 있습니다.
 
 이 연습에서는 다음을 살펴봤습니다.
 
 - 사용자 지정 에이전트가 정의되는 방식
-- Copilot Chat 에이전트 모드에서 사용자 지정 에이전트를 사용하는 방법
+- 사용자 지정 에이전트에 작업을 할당하는 방법
 
-다음으로 [에이전트의 작업을 모니터링하고 안내합니다][next-lesson]. 변경 사항을 검토하면서 동일한 세션에 밝은 모드 토글을 추가하도록 요청합니다.
+Copilot이 고대비 모드를 구현하는 동안 다음으로 [에이전트 세션을 모니터링하고 안내합니다][next-lesson].
 
 ## 리소스
 
 - [사용자 지정 에이전트 정보][custom-agents]
-- [IDE에서 사용자 지정 에이전트 만들기][creating-custom-agents-ide]
-- [VS Code의 사용자 지정 에이전트][custom-agents-vscode]
-- [사용자 지정 에이전트 구성][custom-agents-config]
-- [awesome-copilot의 사용자 지정 에이전트][awesome-copilot-agents]
+- [조직에서 사용자 지정 에이전트 사용 준비하기][org-custom-agents]
+- [엔터프라이즈에서 사용자 지정 에이전트 사용 준비하기][enterprise-custom-agents]
 
 ---
 
@@ -109,7 +102,5 @@ GitHub Copilot의 [사용자 지정 에이전트][custom-agents]는 특정 작�
 [previous-lesson]: ../2-cloud-agent/
 [next-lesson]: ../4-managing-agents/
 [custom-agents]: https://docs.github.com/copilot/concepts/agents/cloud-agent/about-custom-agents
-[creating-custom-agents-ide]: https://docs.github.com/copilot/how-tos/use-copilot-agents/cloud-agent/create-custom-agents-in-your-ide
-[custom-agents-vscode]: https://code.visualstudio.com/docs/copilot/customization/custom-agents
-[custom-agents-config]: https://docs.github.com/copilot/reference/custom-agents-configuration
-[awesome-copilot-agents]: https://github.com/github/awesome-copilot/tree/main/agents
+[org-custom-agents]: https://docs.github.com/copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents
+[enterprise-custom-agents]: https://docs.github.com/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/prepare-for-custom-agents

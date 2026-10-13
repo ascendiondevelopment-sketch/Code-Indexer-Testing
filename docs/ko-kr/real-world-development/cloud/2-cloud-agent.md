@@ -115,6 +115,9 @@ jobs:
     ![이슈에 Copilot을 할당하는 화면](../../../_images/shared-assign-copilot.png)
 
 9. **Assign**을 선택합니다.
+
+    ![Copilot에 이슈를 할당한 세부 정보](../../../_images/ex4-assign-copilot-details.png)
+
 10. **Pull Requests** 탭을 선택합니다.
 11. 새 풀 리퀘스트(PR)를 엽니다. 제목은 `[WIP]: 문서 누락 수정`과 비슷할 수 있습니다. 목록에 새 PR이 없으면 잠시 기다린 뒤 브라우저 창을 새로 고칩니다.
 12. 몇 분 뒤 Copilot이 할 일 목록을 만든 것을 확인합니다.
