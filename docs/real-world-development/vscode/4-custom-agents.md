@@ -72,7 +72,7 @@ VS Code surfaces every custom agent defined in `.github/agents` in the agents dr
 3. Select **Accessibility agent** from the list of available agents.
 4. Send the following prompt to the accessibility agent:
 
-    ```
+    ```plaintext
     Add a high-contrast mode to the site. There should be a toggle for high contrast which the user can set, and the setting should persist across page reloads using local storage on the browser.
     ```
 

@@ -39,7 +39,7 @@ Tailspin Toys는 후원자가 대화를 통해 게임을 찾도록 돕는 **Back
 > 이 시리즈에서는 모델 배포와 호스트된 에이전트를 비롯해 요금이 부과되는 Azure 리소스를 만듭니다. 리소스를 만들기 전에 선택한 구독, 지역, 할당량, 예상 비용을 검토해야 합니다. 첫 번째 또는 두 번째 모듈을 마친 뒤 중단하더라도 [정리 지침][cleanup]을 따라야 합니다.
 
 1. 선택 사항 시리즈를 시작하려면 [프로젝트와 모델 준비하기][project-model]로 이동합니다. 설정 지침도 해당 모듈에 포함되어 있습니다.
-2. 핵심 워크숍을 마무리하고 싶다면 [검토 및 다음 단계][review]로 이동합니다.
+2. 핵심 워크숍을 마무리하고 싶다면 [마무리 및 다음 단계][review]로 이동합니다.
 
 ## 리소스 정리하기
 
@@ -74,7 +74,7 @@ Tailspin Toys는 후원자가 대화를 통해 게임을 찾도록 돕는 **Back
 [project-model]: 1-project-and-model/
 [build-deploy]: 2-build-and-deploy/
 [connect-site]: 3-connect-to-site/
-[review]: ../9-review/
+[review]: ../10-review/
 [cleanup]: #리소스-정리하기
 [azure-skills]: https://github.com/microsoft/azure-skills#github-copilot-cli
 [foundry-skill]: https://learn.microsoft.com/azure/foundry/how-to/develop/use-microsoft-foundry-skill?tabs=copilot-cli

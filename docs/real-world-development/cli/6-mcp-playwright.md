@@ -36,7 +36,10 @@ There are many other MCP servers available. GitHub hosts an [MCP registry][mcp-r
 
 ## Add the Playwright MCP server
 
-Let's add the Playwright MCP server to allow Copilot to interact with the website as a user would.
+If the Playwright MCP server is not already available, add it so Copilot can interact with the website as a user would.
+
+> [!NOTE]
+> If Playwright MCP is already configured in Copilot CLI, skip these setup steps and continue to the next section.
 
 1. Return to your Codespace.
 2. Open the add MCP server dialog by entering the following command in Copilot CLI:
@@ -58,7 +61,7 @@ Let's add the Playwright MCP server to allow Copilot to interact with the websit
 
 ## Ask Copilot to explore the feature via Playwright
 
-Previously you manually confirmed the functionality behaves as expected. Now let's use the Playwright server you just added to Copilot to allow Copilot to do the same!
+Previously you manually confirmed the functionality behaves as expected. Now let's use the Playwright MCP server available in Copilot to do the same!
 
 1. Use the following prompt to tell Copilot to use the Playwright MCP server to validate the functionality:
 
