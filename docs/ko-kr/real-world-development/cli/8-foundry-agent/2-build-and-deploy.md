@@ -22,7 +22,7 @@ Tailspin Toys에는 모델의 일회성 답변 이상이 필요합니다. 후원
 
 이 모듈은 모듈 1에서 정상적으로 작동한 모델을 기반으로 진행합니다. Azure 리소스를 새로 만들지 않고 동일한 프로젝트와 배포를 유지합니다.
 
-1. Tailspin Toys 리포지토리의 `foundry-agent-cli` 브랜치와 모듈 1에서 사용한 Copilot CLI 세션으로 돌아갑니다.
+1. Codespace로 돌아간 다음 `foundry-agent-cli` 브랜치의 Tailspin Toys 리포지토리와 모듈 1에서 사용한 Copilot CLI 세션을 엽니다.
 2. `db/catalog.json`이 있는지, 모델 테스트에 사용한 Foundry 프로젝트, 선택한 모델 배포, Azure 로그인이 그대로 유지되어 있는지 확인합니다. 설정을 완료하지 않았다면 먼저 [프로젝트와 모델 준비하기][previous-lesson]를 마칩니다.
 
 > [!IMPORTANT]

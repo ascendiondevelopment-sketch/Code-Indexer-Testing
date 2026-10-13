@@ -51,7 +51,13 @@ export default defineConfig({
           'https://github.com/github-samples/copilot-workshops/edit/main/docs/',
       },
       sidebar: [
-        { label: 'Home', link: '/' },
+        {
+          label: 'Home',
+          link: '/',
+          translations: {
+            'ko-KR': '홈',
+          },
+        },
         {
           label: 'First steps',
           translations: {
@@ -75,6 +81,9 @@ export default defineConfig({
             },
             {
               label: 'GitHub Copilot app',
+              translations: {
+                'ko-KR': 'GitHub Copilot 앱',
+              },
               items: [
                 {
                   label: 'Overview',
@@ -521,23 +530,107 @@ export default defineConfig({
         },
         {
           label: 'Real-world development',
+          translations: {
+            'ko-KR': '실제 개발',
+          },
           items: [
-            { label: 'Overview', link: '/real-world-development/' },
+            {
+              label: 'Overview',
+              link: '/real-world-development/',
+              translations: {
+                'ko-KR': '개요',
+              },
+            },
             {
               label: 'GitHub Copilot CLI',
+              translations: {
+                'ko-KR': 'GitHub Copilot CLI',
+              },
               items: [
-                { label: 'Overview', link: '/real-world-development/cli/' },
-                { label: '0. Prerequisites', link: '/real-world-development/cli/0-prerequisites/' },
-                { label: '1. Installing Copilot CLI', link: '/real-world-development/cli/1-install-copilot-cli/' },
-                { label: '2. Add star ratings', link: '/real-world-development/cli/2-add-star-rating/' },
-                { label: '3. Agent modes: Plan and Autopilot', link: '/real-world-development/cli/3-agent-modes/' },
-                { label: '4. Guiding Copilot with custom instructions', link: '/real-world-development/cli/4-custom-instructions/' },
-                { label: '5. Customize and use a quality-checks skill', link: '/real-world-development/cli/5-agent-skills/' },
-                { label: '6. Validate functionality with Playwright MCP', link: '/real-world-development/cli/6-mcp-playwright/' },
-                { label: '7. Create and use a QA agent', link: '/real-world-development/cli/7-qa-agent/' },
-                { label: '8. Create and merge the feature PR', link: '/real-world-development/cli/8-create-pull-request/' },
-                { label: '9. Slash commands in Copilot CLI', link: '/real-world-development/cli/9-cli-power-tools/' },
-                { label: '10. Wrap-up and next steps', link: '/real-world-development/cli/10-review/' },
+                {
+                  label: 'Overview',
+                  link: '/real-world-development/cli/',
+                  translations: {
+                    'ko-KR': '개요',
+                  },
+                },
+                {
+                  label: '0. Prerequisites',
+                  link: '/real-world-development/cli/0-prerequisites/',
+                  translations: {
+                    'ko-KR': '0. 사전 준비',
+                  },
+                },
+                {
+                  label: '1. Installing Copilot CLI',
+                  link: '/real-world-development/cli/1-install-copilot-cli/',
+                  translations: {
+                    'ko-KR': '1. GitHub Copilot CLI 설치하기',
+                  },
+                },
+                {
+                  label: '2. Add star ratings',
+                  link: '/real-world-development/cli/2-add-star-rating/',
+                  translations: {
+                    'ko-KR': '2. 빠른 성과로 별점 추가하기',
+                  },
+                },
+                {
+                  label: '3. Agent modes: Plan and Autopilot',
+                  link: '/real-world-development/cli/3-agent-modes/',
+                  translations: {
+                    'ko-KR': '3. 에이전트 모드: Plan 및 Autopilot',
+                  },
+                },
+                {
+                  label: '4. Guiding Copilot with custom instructions',
+                  link: '/real-world-development/cli/4-custom-instructions/',
+                  translations: {
+                    'ko-KR': '4. 사용자 지정 지침으로 Copilot 안내하기',
+                  },
+                },
+                {
+                  label: '5. Customize and use a quality-checks skill',
+                  link: '/real-world-development/cli/5-agent-skills/',
+                  translations: {
+                    'ko-KR': '5. quality-checks 스킬 사용자 지정 및 사용하기',
+                  },
+                },
+                {
+                  label: '6. Validate functionality with Playwright MCP',
+                  link: '/real-world-development/cli/6-mcp-playwright/',
+                  translations: {
+                    'ko-KR': '6. Playwright MCP로 기능 검증하기',
+                  },
+                },
+                {
+                  label: '7. Create and use a QA agent',
+                  link: '/real-world-development/cli/7-qa-agent/',
+                  translations: {
+                    'ko-KR': '7. QA 에이전트 만들고 사용하기',
+                  },
+                },
+                {
+                  label: '8. Create and merge the feature PR',
+                  link: '/real-world-development/cli/8-create-pull-request/',
+                  translations: {
+                    'ko-KR': '8. 기능 PR 만들고 병합하기',
+                  },
+                },
+                {
+                  label: '9. Slash commands in Copilot CLI',
+                  link: '/real-world-development/cli/9-cli-power-tools/',
+                  translations: {
+                    'ko-KR': '9. GitHub Copilot CLI의 슬래시 명령',
+                  },
+                },
+                {
+                  label: '10. Wrap-up and next steps',
+                  link: '/real-world-development/cli/10-review/',
+                  translations: {
+                    'ko-KR': '10. 마무리 및 다음 단계',
+                  },
+                },
                 {
                   label: 'Optional: Incorporate Foundry',
                   translations: {
@@ -599,19 +692,94 @@ export default defineConfig({
             },
             {
               label: 'GitHub Copilot app',
+              translations: {
+                'ko-KR': 'GitHub Copilot 앱',
+              },
               items: [
-                { label: 'Overview', link: '/real-world-development/app/' },
-                { label: '0. Prerequisites', link: '/real-world-development/app/0-prerequisites/' },
-                { label: '1. Install the Copilot app', link: '/real-world-development/app/1-install-copilot-app/' },
-                { label: '2. Add star ratings', link: '/real-world-development/app/2-add-star-rating/' },
-                { label: '3. Agent modes: Plan and Autopilot', link: '/real-world-development/app/3-agent-modes/' },
-                { label: '4. Guiding Copilot with custom instructions', link: '/real-world-development/app/4-custom-instructions/' },
-                { label: '5. Customize and use a quality-checks skill', link: '/real-world-development/app/5-agent-skills/' },
-                { label: '6. Validate with Playwright MCP', link: '/real-world-development/app/6-mcp-playwright/' },
-                { label: '7. Create and use a QA agent', link: '/real-world-development/app/7-qa-agent/' },
-                { label: '8. Create and merge the feature PR', link: '/real-world-development/app/8-create-pull-request/' },
-                { label: '9. Explore and create canvases', link: '/real-world-development/app/9-canvases/' },
-                { label: '10. Wrap-up and next steps', link: '/real-world-development/app/10-review/' },
+                {
+                  label: 'Overview',
+                  link: '/real-world-development/app/',
+                  translations: {
+                    'ko-KR': '개요',
+                  },
+                },
+                {
+                  label: '0. Prerequisites',
+                  link: '/real-world-development/app/0-prerequisites/',
+                  translations: {
+                    'ko-KR': '0. 사전 준비',
+                  },
+                },
+                {
+                  label: '1. Install the Copilot app',
+                  link: '/real-world-development/app/1-install-copilot-app/',
+                  translations: {
+                    'ko-KR': '1. Copilot app 설치하기',
+                  },
+                },
+                {
+                  label: '2. Add star ratings',
+                  link: '/real-world-development/app/2-add-star-rating/',
+                  translations: {
+                    'ko-KR': '2. 빠른 성과로 별점 추가하기',
+                  },
+                },
+                {
+                  label: '3. Agent modes: Plan and Autopilot',
+                  link: '/real-world-development/app/3-agent-modes/',
+                  translations: {
+                    'ko-KR': '3. 에이전트 모드: Plan 및 Autopilot',
+                  },
+                },
+                {
+                  label: '4. Guiding Copilot with custom instructions',
+                  link: '/real-world-development/app/4-custom-instructions/',
+                  translations: {
+                    'ko-KR': '4. 사용자 지정 지침으로 Copilot 안내하기',
+                  },
+                },
+                {
+                  label: '5. Customize and use a quality-checks skill',
+                  link: '/real-world-development/app/5-agent-skills/',
+                  translations: {
+                    'ko-KR': '5. quality-checks 스킬 사용자 지정 및 사용하기',
+                  },
+                },
+                {
+                  label: '6. Validate with Playwright MCP',
+                  link: '/real-world-development/app/6-mcp-playwright/',
+                  translations: {
+                    'ko-KR': '6. Playwright MCP로 기능 검증하기',
+                  },
+                },
+                {
+                  label: '7. Create and use a QA agent',
+                  link: '/real-world-development/app/7-qa-agent/',
+                  translations: {
+                    'ko-KR': '7. QA 에이전트 만들고 사용하기',
+                  },
+                },
+                {
+                  label: '8. Create and merge the feature PR',
+                  link: '/real-world-development/app/8-create-pull-request/',
+                  translations: {
+                    'ko-KR': '8. 기능 PR 만들고 병합하기',
+                  },
+                },
+                {
+                  label: '9. Explore and create canvases',
+                  link: '/real-world-development/app/9-canvases/',
+                  translations: {
+                    'ko-KR': '9. 캔버스 살펴보고 만들기',
+                  },
+                },
+                {
+                  label: '10. Wrap-up and next steps',
+                  link: '/real-world-development/app/10-review/',
+                  translations: {
+                    'ko-KR': '10. 마무리 및 다음 단계',
+                  },
+                },
                 {
                   label: 'Optional: Incorporate Foundry',
                   translations: {
@@ -625,6 +793,9 @@ export default defineConfig({
                     {
                       label: 'Overview',
                       link: '/real-world-development/app/8-foundry-canvas/',
+                      translations: {
+                        'ko-KR': '개요',
+                      },
                     },
                     {
                       label: '1. Prepare the project and model',
@@ -665,27 +836,123 @@ export default defineConfig({
             },
             {
               label: 'GitHub Copilot cloud agent',
+              translations: {
+                'ko-KR': 'GitHub Copilot 클라우드 에이전트',
+              },
               items: [
-                { label: 'Overview', link: '/real-world-development/cloud/' },
-                { label: '0. Prerequisites', link: '/real-world-development/cloud/0-prerequisites/' },
-                { label: '1. Custom instructions', link: '/real-world-development/cloud/1-custom-instructions/' },
-                { label: '2. Cloud agent', link: '/real-world-development/cloud/2-cloud-agent/' },
-                { label: '3. Custom agents', link: '/real-world-development/cloud/3-custom-agents/' },
-                { label: '4. Managing agents', link: '/real-world-development/cloud/4-managing-agents/' },
-                { label: '5. Iterating', link: '/real-world-development/cloud/5-iterating/' },
+                {
+                  label: 'Overview',
+                  link: '/real-world-development/cloud/',
+                  translations: {
+                    'ko-KR': '개요',
+                  },
+                },
+                {
+                  label: '0. Prerequisites',
+                  link: '/real-world-development/cloud/0-prerequisites/',
+                  translations: {
+                    'ko-KR': '0. 사전 준비',
+                  },
+                },
+                {
+                  label: '1. Custom instructions',
+                  link: '/real-world-development/cloud/1-custom-instructions/',
+                  translations: {
+                    'ko-KR': '1. 사용자 지정 지침',
+                  },
+                },
+                {
+                  label: '2. Cloud agent',
+                  link: '/real-world-development/cloud/2-cloud-agent/',
+                  translations: {
+                    'ko-KR': '2. GitHub Copilot cloud agent',
+                  },
+                },
+                {
+                  label: '3. Custom agents',
+                  link: '/real-world-development/cloud/3-custom-agents/',
+                  translations: {
+                    'ko-KR': '3. 사용자 지정 에이전트',
+                  },
+                },
+                {
+                  label: '4. Managing agents',
+                  link: '/real-world-development/cloud/4-managing-agents/',
+                  translations: {
+                    'ko-KR': '4. 에이전트 모니터링 및 관리',
+                  },
+                },
+                {
+                  label: '5. Iterating',
+                  link: '/real-world-development/cloud/5-iterating/',
+                  translations: {
+                    'ko-KR': '5. Copilot 작업 반복 개선',
+                  },
+                },
               ],
             },
             {
               label: 'Visual Studio Code',
+              translations: {
+                'ko-KR': 'Visual Studio Code',
+              },
               items: [
-                { label: 'Overview', link: '/real-world-development/vscode/' },
-                { label: '0. Prerequisites', link: '/real-world-development/vscode/0-prerequisites/' },
-                { label: '1. Custom instructions', link: '/real-world-development/vscode/1-custom-instructions/' },
-                { label: '2. Agent mode', link: '/real-world-development/vscode/2-agent-mode/' },
-                { label: '3. Testing with Playwright MCP', link: '/real-world-development/vscode/3-mcp/' },
-                { label: '4. Custom agents', link: '/real-world-development/vscode/4-custom-agents/' },
-                { label: '5. Managing agents', link: '/real-world-development/vscode/5-managing-agents/' },
-                { label: '6. Iterating', link: '/real-world-development/vscode/6-iterating/' },
+                {
+                  label: 'Overview',
+                  link: '/real-world-development/vscode/',
+                  translations: {
+                    'ko-KR': '개요',
+                  },
+                },
+                {
+                  label: '0. Prerequisites',
+                  link: '/real-world-development/vscode/0-prerequisites/',
+                  translations: {
+                    'ko-KR': '0. 사전 준비',
+                  },
+                },
+                {
+                  label: '1. Custom instructions',
+                  link: '/real-world-development/vscode/1-custom-instructions/',
+                  translations: {
+                    'ko-KR': '1. 사용자 지정 지침',
+                  },
+                },
+                {
+                  label: '2. Agent mode',
+                  link: '/real-world-development/vscode/2-agent-mode/',
+                  translations: {
+                    'ko-KR': '2. 에이전트 모드',
+                  },
+                },
+                {
+                  label: '3. Testing with Playwright MCP',
+                  link: '/real-world-development/vscode/3-mcp/',
+                  translations: {
+                    'ko-KR': '3. Playwright MCP로 기능 테스트하기',
+                  },
+                },
+                {
+                  label: '4. Custom agents',
+                  link: '/real-world-development/vscode/4-custom-agents/',
+                  translations: {
+                    'ko-KR': '4. 사용자 지정 에이전트',
+                  },
+                },
+                {
+                  label: '5. Managing agents',
+                  link: '/real-world-development/vscode/5-managing-agents/',
+                  translations: {
+                    'ko-KR': '5. 에이전트 모니터링 및 관리',
+                  },
+                },
+                {
+                  label: '6. Iterating',
+                  link: '/real-world-development/vscode/6-iterating/',
+                  translations: {
+                    'ko-KR': '6. GitHub Copilot 작업 반복 개선',
+                  },
+                },
                 {
                   label: 'Optional: Incorporate Foundry',
                   translations: {
@@ -696,7 +963,13 @@ export default defineConfig({
                     'zh-CN': '可选：集成 Foundry',
                   },
                   items: [
-                    { label: 'Overview', link: '/real-world-development/vscode/7-foundry-toolkit/' },
+                    {
+                      label: 'Overview',
+                      link: '/real-world-development/vscode/7-foundry-toolkit/',
+                      translations: {
+                        'ko-KR': '개요',
+                      },
+                    },
                     {
                       label: 'Prepare a project and model',
                       link: '/real-world-development/vscode/7-foundry-toolkit/1-project-and-model/',

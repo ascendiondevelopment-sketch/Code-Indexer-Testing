@@ -40,4 +40,4 @@ GitHub Copilot CLI, GitHub Copilot 앱, GitHub Copilot 클라우드 에이전트
 [first-steps-app]: first-steps/copilot-app/
 [first-steps-cli]: first-steps/copilot-cli/
 [first-steps-vscode]: first-steps/vscode/
-[real-world-development]: ../real-world-development/
+[real-world-development]: real-world-development/
