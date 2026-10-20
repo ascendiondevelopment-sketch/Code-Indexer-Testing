@@ -28,9 +28,9 @@ Esse menu identifica o projeto em que a sessão está trabalhando e fornece cont
 
 ## Revisar os detalhes de uso
 
-Selecione o controle de uso ao lado de **Send** para abrir o menu de plano e uso da sessão.
+Selecione o controle de uso à esquerda do microfone para abrir o menu de plano e uso da sessão. O microfone fica entre o controle de uso e **Send**.
 
-![Ilustração do menu de uso ao lado do botão Send. Ele mostra o plano GitHub Copilot Pro+, os créditos de IA da sessão, as contagens de tokens de entrada e saída e o uso de contexto em 16% de 400 mil tokens.](../../../_images/first-steps-app-usage-details.svg)
+![Ilustração do menu de uso com o microfone entre o controle de uso e o botão Send. Ele mostra o plano GitHub Copilot Pro+, os créditos de IA da sessão, as contagens de tokens de entrada e saída e o uso de contexto em 16% de 400 mil tokens.](../../../_images/first-steps-app-usage-details.svg)
 
 Esse menu separa o uso da conta e da sessão dos controles do projeto:
 
