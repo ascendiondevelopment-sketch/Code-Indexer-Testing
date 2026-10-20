@@ -28,9 +28,9 @@ This menu identifies the project that the session is working in and provides con
 
 ## Review the usage details
 
-Select the usage control next to **Send** to open the plan and session usage menu.
+Select the usage control to the left of the microphone to open the plan and session usage menu. The microphone is between the usage control and **Send**.
 
-![Illustration of the usage menu next to the Send button. It shows the GitHub Copilot Pro+ plan, session AI credits, input and output token counts, and context usage at 16 percent of 400 thousand tokens.](../../_images/first-steps-app-usage-details.svg)
+![Illustration of the usage menu with the microphone between the usage control and the Send button. It shows the GitHub Copilot Pro+ plan, session AI credits, input and output token counts, and context usage at 16 percent of 400 thousand tokens.](../../_images/first-steps-app-usage-details.svg)
 
 This menu separates account and session usage from the project controls:
 
