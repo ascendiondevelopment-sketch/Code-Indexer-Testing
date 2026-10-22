@@ -18,6 +18,7 @@ npm run preview  # preview the production build
 ## Site config
 
 - `astro.config.mjs` — Site URL, base path, `locales` block, sidebar (manually maintained).
+  Workshop categories and workshop groups default to collapsed; Starlight automatically expands the branch containing the current page. Keep this behavior when adding groups so similarly named workshops in different categories are not confused.
 - `src/content.config.ts` — Content collection loader. Its `base` points at `../docs`, so lesson Markdown is sourced from the repo-root content directory. Excludes underscore-prefixed directories so support assets such as `_images/` aren't routed as pages.
 - `src/components/` — Site-shell components (`.astro`). Lesson content does **not** live here.
 - `src/pages/` — Standalone Astro routes outside the content collection. Currently just `shared/0-prereqs.astro`, the full-HTML redirect that forwards the legacy `/shared/0-prereqs/` URL to the home page (prerequisites are now per-harness at `/<harness>/0-prerequisites/`).
