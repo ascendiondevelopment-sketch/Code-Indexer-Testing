@@ -3,7 +3,7 @@ slug: real-world-development/app
 title: "GitHub Copilot app"
 authors:
   - geektrainer
-lastUpdated: 2026-09-17
+lastUpdated: 2026-10-22
 ---
 
 The **[GitHub Copilot app](https://docs.github.com/copilot/concepts/agents/github-copilot-app)** is a desktop application built on Copilot CLI that brings agent-driven development into a single, focused workspace. It adds parallel agent sessions, switchable session modes, shared canvases, and native GitHub issue and pull request management — including **Agent Merge**, which shepherds a pull request through rebases, review feedback, continuous integration (CI) fixes, and merge.
@@ -18,7 +18,7 @@ The workshop follows one continuous Tailspin Toys workflow:
 6. Add the Playwright Model Context Protocol (MCP) server and use it to explore filtering in a browser.
 7. Create a quality assurance (QA) custom agent and use it to review requirements, coverage, and verification evidence.
 8. Review the complete filtering change and use Agent Merge for the second PR.
-9. Use the existing Database Explorer canvas, then create and test a repository-backed triage canvas.
+9. Check canvas availability, then use Database Explorer and create and test a repository-backed triage canvas. If required capabilities are unavailable, record the blocker and use the read-only alternative or continue to the wrap-up.
 
 To keep the workshop focused, you'll create two PRs: star ratings, then filtering with the instruction updates, skill update, QA profile, and tests. Start each from updated `main`. The filtering and quality workflow shares one session, worktree, and branch so you can build on your work as you explore each tool. The final canvas exercise stays in its session so you can focus on creating and testing the shared surface rather than repeating the PR workflow.
 
@@ -53,7 +53,7 @@ Before attending this workshop, please ensure you have:
 > Because the Copilot app runs on your own machine rather than in a codespace, [the prerequisites exercise][ex0] walks you through installing Node.js and creating your copy of the project before you install the app.
 
 > [!NOTE]
-> If you are using Copilot Business or Copilot Enterprise, your administrator must enable the **Copilot CLI** policy before you can use the app.
+> If you are using Copilot Business or Copilot Enterprise, your administrator must keep the **GitHub Copilot app** policy enabled. This is separate from the Copilot CLI policy.
 
 ## Get Started
 
