@@ -60,6 +60,7 @@ export default defineConfig({
         },
         {
           label: 'First steps',
+          collapsed: true,
           translations: {
             'es-ES': 'Primeros pasos',
             'ja-JP': 'はじめの一歩',
@@ -81,6 +82,7 @@ export default defineConfig({
             },
             {
               label: 'GitHub Copilot app',
+              collapsed: true,
               translations: {
                 'ko-KR': 'GitHub Copilot 앱',
               },
@@ -254,6 +256,7 @@ export default defineConfig({
             },
             {
               label: 'GitHub Copilot CLI',
+              collapsed: true,
               items: [
                 {
                   label: 'Overview',
@@ -391,6 +394,7 @@ export default defineConfig({
             },
             {
               label: 'Visual Studio Code',
+              collapsed: true,
               items: [
                 {
                   label: 'Overview',
@@ -530,6 +534,7 @@ export default defineConfig({
         },
         {
           label: 'Real-world development',
+          collapsed: true,
           translations: {
             'ko-KR': '실제 개발',
           },
@@ -543,6 +548,7 @@ export default defineConfig({
             },
             {
               label: 'GitHub Copilot CLI',
+              collapsed: true,
               translations: {
                 'ko-KR': 'GitHub Copilot CLI',
               },
@@ -692,6 +698,7 @@ export default defineConfig({
             },
             {
               label: 'GitHub Copilot app',
+              collapsed: true,
               translations: {
                 'ko-KR': 'GitHub Copilot 앱',
               },
@@ -836,6 +843,7 @@ export default defineConfig({
             },
             {
               label: 'GitHub Copilot cloud agent',
+              collapsed: true,
               translations: {
                 'ko-KR': 'GitHub Copilot 클라우드 에이전트',
               },
@@ -893,6 +901,7 @@ export default defineConfig({
             },
             {
               label: 'Visual Studio Code',
+              collapsed: true,
               translations: {
                 'ko-KR': 'Visual Studio Code',
               },
